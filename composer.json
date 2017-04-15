@@ -15,7 +15,7 @@
         "jbzoo/utils"   : "^1.7"
     },
 
-    "autoload-dev" : {
+    "autoload" : {
         "classmap" : ["src"],
         "files"    : ["src/phpunit/defines.php"]
     },

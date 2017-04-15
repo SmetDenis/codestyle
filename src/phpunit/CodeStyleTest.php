@@ -251,6 +251,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -272,6 +274,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -293,6 +297,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -315,6 +321,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -337,7 +345,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
 
-        isTrue(true);
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -366,7 +374,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
 
-        isTrue(true);
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -389,6 +397,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -411,6 +421,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -435,6 +447,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     /**
@@ -458,6 +472,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
             $content = openFile($file->getPathname());
             isContain($valid, $content, false, 'File has no valid header: ' . $file);
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     public function testFiles()
@@ -492,6 +508,8 @@ abstract class UnileadCodeStyleTest extends Codestyle
                 isNotContain("\t", $content, false, 'File has \t symbol: ' . $file);
             }
         }
+
+        isTrue(true); // One assert  is minimum for test
     }
 
     public function testCyrillic()
@@ -534,6 +552,6 @@ abstract class UnileadCodeStyleTest extends Codestyle
             }
         }
 
-        isTrue(true);
+        isTrue(true); // One assert  is minimum for test
     }
 }

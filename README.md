@@ -1,4 +1,4 @@
-[![build status](http://code.unilead.net/denis.smetannikov/codestyle/badges/master/build.svg)](http://code.unilead.net/denis.smetannikov/codestyle/commits/master)
+[![build status](http://code.unilead.net/unilead/codestyle/badges/master/build.svg)](http://code.unilead.net/unilead/codestyle/commits/master)
 
 ## Project Description
 

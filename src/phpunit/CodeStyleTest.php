@@ -524,6 +524,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
             ->ignoreDotFiles(false)
             ->notName('Helper.php')// It has function cyr2Lat ()
             ->notName('config.php')// Any data in config files
+            ->notName('general.php')// Unilead Legals contains cyrillic symbols
             ->notName('MarketParser.php')
             // Some API Calls
             ->notName('CustomerContractsService.php')

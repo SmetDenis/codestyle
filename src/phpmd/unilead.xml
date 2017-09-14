@@ -53,7 +53,7 @@
     <rule ref="rulesets/codesize.xml/TooManyFields">
         <properties>
             <!-- default:15 -->
-            <property name="maxfields" value="20"/>
+            <property name="maxfields" value="25"/>
         </properties>
     </rule>
     <rule ref="rulesets/codesize.xml/TooManyMethods">
@@ -91,8 +91,17 @@
             <property name="minimum" value="50"/>
         </properties>
     </rule>
-    <rule ref="rulesets/design.xml/DepthOfInheritance"/>
+    <rule ref="rulesets/design.xml/DepthOfInheritance">
+        <properties>
+            <property name="minimum" value="7" />
+        </properties>
+    </rule>
     <rule ref="rulesets/design.xml/CouplingBetweenObjects">
+        <properties>
+            <property name="minimum" value="20" />
+        </properties>
+    </rule>
+    <rule name="DevelopmentCodeFragment">
         <properties>
             <property name="unwanted-functions"
                       value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump"/>

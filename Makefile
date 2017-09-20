@@ -35,7 +35,7 @@ test-phpmd:
 
 test-phpcs:
 	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Check PHP Code Style \033[0m"
-	@php ./vendor/squizlabs/php_codesniffer/scripts/phpcs       \
+	@php ./vendor/squizlabs/php_codesniffer/bin/phpcs           \
         --extensions=php,phtml                                  \
         --standard=./src/phpcs/Unilead/ruleset.xml              \
         --report=full                                           \

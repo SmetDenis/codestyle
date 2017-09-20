@@ -31,5 +31,10 @@
     <rule ref="PSR1">
         <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
     </rule>
+    <rule ref="PSR2">
+        <exclude name="PSR2.Methods.FunctionCallSignature.ContentAfterOpenBracket"/>
+        <exclude name="PSR2.Methods.FunctionCallSignature.CloseBracketLine"/>
+        <exclude name="PSR2.Methods.FunctionCallSignature.SpaceBeforeOpenBracket"/>
+    </rule>
 
 </ruleset>

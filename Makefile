@@ -20,7 +20,6 @@ update:
 
 test-all:
 	@make test-phpunit
-	@make test-phpmd
 	@make test-phpcs
 
 test-phpunit:

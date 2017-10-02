@@ -11,8 +11,9 @@
     ],
 
     "require"      : {
-        "jbzoo/phpunit" : "^2.0",
-        "jbzoo/utils"   : "^1.7"
+        "jbzoo/phpunit"    : "^2.0",
+        "jbzoo/utils"      : "^1.7",
+        "fzaninotto/faker" : "^1.7"
     },
 
     "autoload" : {

@@ -101,10 +101,9 @@
             <property name="minimum" value="20" />
         </properties>
     </rule>
-    <rule name="DevelopmentCodeFragment">
+    <rule name="DevelopmentCodeFragment" class="PHPMD\Rule\Design\DevelopmentCodeFragment">
         <properties>
-            <property name="unwanted-functions"
-                      value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump"/>
+            <property name="unwanted-functions" value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump"/>
         </properties>
     </rule>
 

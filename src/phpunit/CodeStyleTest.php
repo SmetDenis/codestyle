@@ -55,6 +55,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
         'resources',
         'vendor',
         'temp',
+        'tools',
         'tmp'
     ];
     /**
@@ -464,7 +465,6 @@ abstract class UnileadCodeStyleTest extends Codestyle
             ->in($this->_validDirs)
             ->exclude($this->_excludePaths)
             ->notName('config.php')// Any data in config files
-            ->notName('AdminerCore.php')
             ->name('*.php')
             ->name('*.phtml');
 
@@ -497,7 +497,6 @@ abstract class UnileadCodeStyleTest extends Codestyle
             ->name('*.md')
             ->ignoreDotFiles(false)
             ->exclude('Makefile')
-            ->notName('AdminerCore.php')
             ->notName('*.css')
             ->notName('*.js')
             ->exclude($this->_excludePaths);
@@ -528,7 +527,6 @@ abstract class UnileadCodeStyleTest extends Codestyle
             ->notName('config.php')// Any data in config files
             ->notName('general.php')// Unilead Legals contains cyrillic symbols
             ->notName('MarketParser.php')
-            ->notName('AdminerCore.php')
             // Some API Calls
             ->notName('CustomerContractsService.php')
             ->notName('VendorAgreementService.php')

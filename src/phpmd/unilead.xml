@@ -101,7 +101,11 @@
             <property name="minimum" value="20" />
         </properties>
     </rule>
-    <rule name="DevelopmentCodeFragment" class="PHPMD\Rule\Design\DevelopmentCodeFragment">
+    <rule
+        name="DevelopmentCodeFragment"
+        message="The {0} {1}() calls the typical debug function {2}() which is mostly only used during development."
+        class="PHPMD\Rule\Design\DevelopmentCodeFragment"
+    >
         <properties>
             <property name="unwanted-functions" value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump"/>
         </properties>

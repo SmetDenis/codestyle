@@ -107,7 +107,7 @@
         class="PHPMD\Rule\Design\DevelopmentCodeFragment"
     >
         <properties>
-            <property name="unwanted-functions" value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump"/>
+            <property name="unwanted-functions" value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,jbdump,dump,toLog,dumpSql"/>
         </properties>
     </rule>
 

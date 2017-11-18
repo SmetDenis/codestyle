@@ -1,14 +1,14 @@
 <?php
 /**
- * Item8 Ltd | Codestyle
+ * Item8 | Codestyle
  *
- * This file is part of the _VENDOR_ Service Package.
+ * This file is part of the Item8 Service Package.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
  * @package     Codestyle
  * @license     Proprietary
- * @copyright   Copyright (C) Item8 Ltd, All rights reserved.
+ * @copyright   Copyright (C) Item8, All rights reserved.
  * @link        https://item8.io
  *
  * @codingStandardsIgnoreFile
@@ -25,12 +25,12 @@ use Symfony\Component\Finder\Finder;
  */
 abstract class Item8CodeStyleTest extends Codestyle
 {
-    protected $_packageVendor    = 'Item8 Ltd';
+    protected $_packageVendor    = 'Item8';
     protected $_packageLink      = 'https://item8.io';
     protected $_packageLicense   = 'Proprietary';
-    protected $_packageCopyright = 'Copyright (C) _VENDOR_, All rights reserved.';
+    protected $_packageCopyright = 'Copyright (C) Item8, All rights reserved.';
     protected $_packageDesc      = [
-        'This file is part of the _VENDOR_ Service Package.',
+        'This file is part of the Item8 Service Package.',
         'For the full copyright and license information, please view the LICENSE',
         'file that was distributed with this source code.',
     ];

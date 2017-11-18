@@ -1,17 +1,15 @@
 <?php
 /**
- * Item8 Ltd. | Codestyle
+ * Item8 Ltd | Codestyle
  *
- * This file is part of the Item8 Service Package.
+ * This file is part of the _VENDOR_ Service Package.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
  * @package     Codestyle
  * @license     Proprietary
- * @copyright   Copyright (C) Item8 Ltd., All rights reserved.
+ * @copyright   Copyright (C) Item8 Ltd, All rights reserved.
  * @link        https://item8.io
- *
- * @codingStandardsIgnoreFile
  */
 
 namespace JBZoo\PHPUnit;
@@ -19,13 +17,13 @@ namespace JBZoo\PHPUnit;
 use Symfony\Component\Finder\Finder;
 
 /**
- * Class UnileadCodeStyleTest
+ * Class Item8CodeStyleTest
+ *
  * @package JBZoo\PHPUnit
  */
-abstract class UnileadCodeStyleTest extends Codestyle
+abstract class Item8CodeStyleTest extends Codestyle
 {
     protected $_packageVendor    = 'Item8 Ltd';
-    protected $_packageName      = '';
     protected $_packageLink      = 'https://item8.io';
     protected $_packageLicense   = 'Proprietary';
     protected $_packageCopyright = 'Copyright (C) _VENDOR_, All rights reserved.';
@@ -35,10 +33,11 @@ abstract class UnileadCodeStyleTest extends Codestyle
         'file that was distributed with this source code.',
     ];
 
-    protected $_le = BM_FILE_LINE_ENDING;
+    protected $_le = I8_FILE_LINE_ENDING;
 
     /**
      * Ignore list for
+     *
      * @var array
      */
     protected $_excludePaths = [
@@ -56,10 +55,11 @@ abstract class UnileadCodeStyleTest extends Codestyle
         'vendor',
         'temp',
         'tools',
-        'tmp'
+        'tmp',
     ];
     /**
      * Valid header for PHP files
+     *
      * @var array
      */
     protected $_validHeaderPHP = [
@@ -82,6 +82,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for JavaScript files
+     *
      * @var array
      */
     protected $_validHeaderJS = [
@@ -101,6 +102,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for CSS files (if not mimified)
+     *
      * @var array
      */
     protected $_validHeaderCSS = [
@@ -119,6 +121,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for LESS files
+     *
      * @var array
      */
     protected $_validHeaderLESS = [
@@ -136,6 +139,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for XML files
+     *
      * @var array
      */
     protected $_validHeaderXML = [
@@ -154,6 +158,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for INI files
+     *
      * @var array
      */
     protected $_validHeaderINI = [
@@ -173,6 +178,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for SH scripts
+     *
      * @var array
      */
     protected $_validHeaderSH = [
@@ -193,6 +199,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for SQL scripts
+     *
      * @var array
      */
     protected $_validHeaderSQL = [
@@ -211,6 +218,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
 
     /**
      * Valid header for .htaccess scripts
+     *
      * @var array
      */
     protected $_validHeaderHtaccess = [
@@ -525,7 +533,7 @@ abstract class UnileadCodeStyleTest extends Codestyle
             ->ignoreDotFiles(false)
             ->notName('Helper.php')// It has function cyr2Lat ()
             ->notName('config.php')// Any data in config files
-            ->notName('general.php')// Unilead Legals contains cyrillic symbols
+            ->notName('general.php')// Item8 Legals contains cyrillic symbols
             ->notName('MarketParser.php')
             // Some API Calls
             ->notName('CustomerContractsService.php')

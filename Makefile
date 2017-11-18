@@ -1,14 +1,14 @@
 #
-# Unilead | Codestyle
+# Item8 Ltd | Codestyle
 #
-# This file is part of the Unilead Service Package.
+# This file is part of the _VENDOR_ Service Package.
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
 #
 # @package      Codestyle
 # @license      Proprietary
-# @copyright    Copyright (C) Unilead Network, All rights reserved.
-# @link         https://www.unileadnetwork.com
+# @copyright    Copyright (C) Item8 Ltd, All rights reserved.
+# @link         https://item8.io
 #
 
 .PHONY: build test
@@ -30,13 +30,13 @@ test-phpunit:
 test-phpmd:
 	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Check by PHPmd \033[0m"
 	@php ./vendor/phpmd/phpmd/src/bin/phpmd ./src text      \
-         ./src/phpmd/unilead.xml --verbose
+         ./src/phpmd/item8.xml --verbose
 
 test-phpcs:
 	@echo "\033[0;33m>>> >>> >>> >>> >>> >>> >>> >>> \033[0;30;46m Check PHP Code Style \033[0m"
 	@php ./vendor/squizlabs/php_codesniffer/bin/phpcs           \
         --extensions=php,phtml                                  \
-        --standard=./src/phpcs/Unilead/ruleset.xml              \
+        --standard=./src/phpcs/item8/ruleset.xml              \
         --report=full                                           \
         --report-width=180                                      \
         --tab-width=4                                           \

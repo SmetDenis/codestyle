@@ -1,5 +1,3 @@
-[![build status](http://code.unilead.net/unilead/codestyle/badges/master/build.svg)](http://code.unilead.net/unilead/codestyle/commits/master)
-
 # Project Description
 
 General code style for All projects
@@ -7,7 +5,7 @@ General code style for All projects
 
 ## Global install in your vagrant
 ```sh
-sudo composer global require unilead/codestyle
+sudo composer global require item8/codestyle
 ```
 
 
@@ -20,7 +18,7 @@ sudo composer global require unilead/codestyle
 
 ```sh
 /home/vagrant/.composer/vendor/bin/phpmd
-/home/vagrant/.composer/vendor/unilead/codestyle/src/phpmd/unilead.xml
+/home/vagrant/.composer/vendor/item8/codestyle/src/phpmd/item8.xml
 ```
 
 #### PHP CS
@@ -29,5 +27,5 @@ sudo composer global require unilead/codestyle
 
 ```sh
 /home/vagrant/.composer/vendor/bin/phpcs
-/home/vagrant/.composer/vendor/unilead/codestyle/src/phpcs/Unilead/ruleset.xml
+/home/vagrant/.composer/vendor/item8/codestyle/src/phpcs/item8/ruleset.xml
 ```

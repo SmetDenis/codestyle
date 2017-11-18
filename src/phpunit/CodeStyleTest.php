@@ -1,15 +1,15 @@
 <?php
 /**
- * Unilead | Codestyle
+ * Item8 Ltd. | Codestyle
  *
- * This file is part of the Unilead Service Package.
+ * This file is part of the Item8 Service Package.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
  * @package     Codestyle
  * @license     Proprietary
- * @copyright   Copyright (C) Unilead Network, All rights reserved.
- * @link        https://www.unileadnetwork.com
+ * @copyright   Copyright (C) Item8 Ltd., All rights reserved.
+ * @link        https://item8.io
  *
  * @codingStandardsIgnoreFile
  */
@@ -24,13 +24,13 @@ use Symfony\Component\Finder\Finder;
  */
 abstract class UnileadCodeStyleTest extends Codestyle
 {
-    protected $_packageVendor    = 'Unilead';
+    protected $_packageVendor    = 'Item8 Ltd';
     protected $_packageName      = '';
-    protected $_packageLink      = 'https://www.unileadnetwork.com';
+    protected $_packageLink      = 'https://item8.io';
     protected $_packageLicense   = 'Proprietary';
-    protected $_packageCopyright = 'Copyright (C) Unilead Network, All rights reserved.';
+    protected $_packageCopyright = 'Copyright (C) _VENDOR_, All rights reserved.';
     protected $_packageDesc      = [
-        'This file is part of the Unilead Service Package.',
+        'This file is part of the _VENDOR_ Service Package.',
         'For the full copyright and license information, please view the LICENSE',
         'file that was distributed with this source code.',
     ];

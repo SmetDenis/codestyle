@@ -10,6 +10,8 @@
  * @license     Proprietary
  * @copyright   Copyright (C) Item8 Ltd, All rights reserved.
  * @link        https://item8.io
+ *
+ * @codingStandardsIgnoreFile
  */
 
 namespace JBZoo\PHPUnit;

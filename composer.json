@@ -13,7 +13,8 @@
     "require"     : {
         "jbzoo/phpunit"    : "^2.0",
         "jbzoo/utils"      : "^2.1",
-        "fzaninotto/faker" : "^1.7.1"
+        "fzaninotto/faker" : "^1.7.1",
+        "pdepend/pdepend"  : "2.5.0"
     },
 
     "autoload"    : {

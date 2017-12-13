@@ -11,11 +11,12 @@
     ],
 
     "require"     : {
-        "jbzoo/phpunit"             : "^2.0",
-        "jbzoo/utils"               : "^2.1",
-        "fzaninotto/faker"          : "^1.7.1",
-        "pdepend/pdepend"           : "2.5.0",
-        "squizlabs/php_codesniffer" : "3.1.1"
+        "jbzoo/phpunit"                 : "^2.0",
+        "jbzoo/utils"                   : "^2.1",
+        "fzaninotto/faker"              : "^1.7.1",
+        "pdepend/pdepend"               : "2.5.0",
+        "squizlabs/php_codesniffer"     : "3.1.1",
+        "fiunchinho/phpunit-randomizer" :"^3.0"
     },
 
     "autoload"    : {
